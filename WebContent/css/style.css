@@ -1,0 +1,41 @@
+@charset "UTF-8";
+body{
+	width: 500px;   /*幅: 500px*/
+	text-align: center; /*文字: センタリング*/
+}
+
+h1{
+	border-left:20px solid #669999;  /*左の線： 20px 実線 色: #669999（薄緑）*/
+	border-right:20px solid #669999; /*右の線： 20px 実線 色: #669999（薄緑）*/
+	padding:10px 8px 8px 10px;       /* 上余白: 10px 右余白: 8px 下余白: 8px 左余白: 10px*/
+	background-color: #dddddd;	     /*背景色： #dddddd（薄グレー）*/
+	text-align:center;  /*文字: センタリング*/
+}
+
+.box{
+	width:480px;  /*幅: 480px*/
+	border:10px #dddddd solid;　/*線： 20px 実線　色： #dddddd（薄グレー）*/
+	margin-bottom: 20px; /*下余白: 20px*/
+}
+
+dl{
+	line-height:2em;  /*行の高さ： ２文字分*/
+	padding:12px;     /*余白: 12px*/
+}
+
+dt{
+	width:70px; 		/*幅: 70px*/
+	padding:3px; 		/*余白： 3px*/
+	font-weight:bold;	/*文字の太さ： 太い*/
+}
+
+dd{
+	padding:3px 3px 3px 80px;  /* 上余白: 3px 右余白: 3px 下余白: 3px 左余白: 80px*/
+	margin-top:-2.5em; /*上余白: -2.5文字分*/
+}
+
+input{
+	width:96%;　	/*幅: 96%*/
+	padding:4px; 	/*余白: 4px*/
+	font-size:150%;	/*文字サイズ: 150%*/
+}
